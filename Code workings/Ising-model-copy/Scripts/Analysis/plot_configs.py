@@ -116,10 +116,10 @@ def generate_config_plot(topdir, data_params, data_date, folder_date, data_name,
     #return relevant_theta_list
 
 topdir = ""#"../../" 
-repeats = 1
-data_params = "m 6 n 6b 10 [3000, 3000, 3000, 3000][0.2, 0.1, 0.05, 0.025]"
-data_date = "2023-11-24"
-folder_date = "2023-11-24"
+repeats = 2
+data_params = "m 20 n 2b 200 [300, 300, 300, 300][0.2, 0.1, 0.05, 0.025]"
+data_date = "2023-11-29"
+folder_date = "2023-11-29"
 data_name = "raw_data"
 
 generate_config_plot(topdir, data_params, data_date, folder_date, data_name, repeats)
